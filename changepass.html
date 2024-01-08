@@ -1,0 +1,115 @@
+<html>
+
+<head>
+    <style>
+        body{
+            background-color: gray;
+
+        }
+        .form{
+            width: 250px;
+            height: 380px;
+            background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+            
+            margin-left: 700px;
+            margin-top: 150px;
+            top: 300px;
+            left: 1300px;
+            border-radius: 10px;
+            padding: 25px;
+            color: white;
+        }
+        
+        .form h2{
+        
+            width: 220px;
+            font-family: sans-serif;
+            text-align: center;
+            color: green;
+            font-size: 22px;
+            background-color: #fff;
+            border-radius: 10px;
+            margin: 2px;
+            padding: 8px;
+        
+        
+        }
+        .form input{
+            width: 200px;
+            height: 35px;
+            background: transparent;
+            border-bottom: 1px solid green;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            color: white;
+            font-size: 15px;
+            letter-spacing: 1px;
+            margin-top: 30px;
+            font-family:sans-serif ;
+        }
+        
+        .form input:focus{
+            outline: none;
+        }
+        
+        ::placeholder{
+            color: white;
+        }
+        .form .link{
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            padding-top: 20px;
+            text-align: center;
+        
+        }
+        .form .link a{
+            text-decoration: none;
+            color: green;
+        }
+        .btnn{
+    
+            width: 240px;
+            height: 40px;
+            color: white;
+            font-weight: bold;
+            background-color: green;
+            border: none;
+            margin-top: 20px;
+            font-size: 18px;
+            border-radius: 10px;
+            transition: 0.4s ease ;
+        }
+        .btnn:hover{
+            background-color: goldenrod;
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+<form method="POST" action="changepass1.php">
+    <div class="form">
+        <h2>
+            Login Here
+        </h2>
+        <input type="text" name="username" placeholder="User Name" />
+        <input type="password" name="pass" placeholder="Enter your password"/>
+
+        <button name="submit_l" type="submit"  class="btnn" >Login</button>
+        <p class="link">Don't have an account <br>
+        <a href="http://localhost/pharmacy/signup.html">Sign up here</a></p>
+    </div>
+
+
+     
+
+    </form>
+
+
+
+    </body>
+    </html>
